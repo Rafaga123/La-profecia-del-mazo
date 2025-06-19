@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recuperar Contraseña</title>
+        <link rel="shortcut icon" sizes="60x60" href="../images/icon.png">
+        <link rel="stylesheet" href="../CSS/estilorecupera_usuario.css">
+    </head>
+<body>
+    <audio id="base" autoplay loop>
+        <source src="../Soundtrack/pistalogin.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        <h1>Recuperar Contraseña</h1>
+        <div class="frase">El usuario debe ser el mismo con el que usaste al registrarte.<br>
+            Si no es así, no podrá restablecer la contraseña.
+        </div>
+        <form action="proceso_olvidar_contraseña.php" method="post">
+            <div class="Usuario">
+                <input type="email" name="correo" autocomplete="off" required>
+                <label>Correo Electrónico</label>
+            </div>
+            <input type="submit" value="Enviar">
+            <div class="volver">
+                ¿Volver al <a href="../index.php">Inicio de sesión</a>?
+            </div>
+        </form>
+    </div>
+</body>
+</html>

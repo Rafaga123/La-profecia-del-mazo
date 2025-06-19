@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>La Profecia del Mazo</title>
+    <link rel="shortcut icon" sizes="60x60" href="../images/icon.png">
+    <link rel="stylesheet">
+    <script src="Memoria2/cards.js"></script>
+    <style>
+
+:root {
+    --background-color: rgb(167, 45, 45);
+    --border-color: lightgrey;
+    --card-height: 128px;
+    --card-width: 90px;
+}
+
+body {
+    height: 100vh; /* Usar 100vh para ocupar toda la altura de la ventana */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(41, 55, 33);
+    background-image: url(../Images/telón.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainmn{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #326bd4;
+    border: 2px solid #0C1D60;
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mainmn{
+    color: azure; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+.mainmn:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+.errortxt{
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.game-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.game-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#board {
+    height: 550px;
+    width: 475px;
+    margin: 0 auto;
+    display: flex; /* Cambiado a flex */
+    flex-wrap: wrap; /* Asegúrate de que esto esté aquí */
+    background-color: var(--background-color);
+    border: 10px solid var(--border-color);
+}
+
+.card {
+    height: var(--card-height);
+    width: var(--card-width);
+    margin: 2.5px;
+    display: flex; /* Si necesitas centrar contenido dentro de la tarjeta */
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Color de fondo para las tarjetas */
+    border-radius: 5px; /* Bordes redondeados para un mejor diseño */
+}
+    </style>
+    </head>
+
+    <body>
+        <audio id="base" autoplay loop>
+            <source src="../Soundtrack/memory.wav" type="audio/mpeg">
+        </audio>
+    <div class="errortxt">
+    <h2>Errores:<span id="errors">0</span></h2>
+    </div>
+    <a href="../Menu/mainmenu.php" class="mainmn">Menu Principal</a>
+    <div id="board"></div>
+    </body>
+</html>

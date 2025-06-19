@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 20px;
+    background-image: url(../Images/FondoMenu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.menu h1{
+    font-size: 20px;
+}
+.menu{
+    background-color: rgb(37, 62, 85);
+    text-align: center;
+    position: absolute;
+    color: white;
+    border: 2px solid #0C1D60;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 5PX 5PX 10PX 0PX rgb(20, 29, 73);
+}
+
+.menu button{
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #0C1D60;
+    background: #326bd4;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.navegacion {
+    color: #eee;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 10px;
+    background-color: #326bd4;
+    border: 2px solid #0C1D60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Sin subrayado */
+}
+.navegacion .nav-link {
+    color: azure; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}

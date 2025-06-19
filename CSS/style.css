@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(../Images/telón.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 650px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+    position: relative; /* Cambiado a relativo para permitir que el cuadro de texto se mueva con respecto a este */
+    text-align: center;
+}
+
+.game-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.game-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.option {
+    padding: 10px 20px;
+    background-color: #666;
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#text-box {
+  position: absolute; /* Cambiado a absoluto para permitir mover el cuadro de texto */
+  bottom: 50px;
+  right: 70px;
+  width: 86%;
+  height: 150px; 
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px; /* Añadido para un poco de espacio interior */
+  box-sizing: border-box; /* Añadido para incluir el padding en el tamaño total */
+  border-radius: 5px; /* Cambiado para esquinas redondeadas */
+  color: white; /* Añadido para el color del texto */
+  border: 2px solid red; /* Añadido para ver el borde del cuadro de texto */
+  margin: 20px auto;
+}
+
+#next-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+.menu {
+    color: #eee;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #326bd4;
+    border: 2px solid #0C1D60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-link {
+    color: azure; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+.textoprox {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    height: 100dvh;
+    padding: 20px;
+    background-image: url(../Images/FondoMenu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.menu {
+    color: #eee;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: rgb(235, 176, 88);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Sin subrayado */
+}
+.navegacion {
+    color: azure;
+    background-color: rgb(235, 176, 88);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+h1{
+    border: 1px solid rgb(235, 176, 88);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 3px;
+    color: #eee;
+}
+
+.credts {
+    margin-top: 10%;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 2px solid rgb(235, 176, 88);
+    box-shadow: 10px 10px 10px rgba(235, 176, 88, 0.5);
+    padding: 20px 20px;
+    color: azure;
+    text-align: center; /* Centra el texto dentro de este div */
+    margin: 2px; /* Añade margen superior e inferior y centra el div */
+    width: 350px;
+    max-width: 600px; /* Ancho máximo para que no se extienda demasiado */
+    height: 350px;
+    overflow: auto;
+    scrollbar-color: white rgb(235, 176, 88) ;
+    scrollbar-width: 5px;
+}
+.credts h4, .credts h2 {
+    margin: 5px 0; /* Espaciado entre los encabezados */
+}
+
+.nav-link {
+    color: azure; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+.beg{
+    color: azure; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+.beg:hover{
+    text-decoration: underline;
+}
+.nav-link:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+.navegacion {
+    margin-bottom: 20px; /* Espaciado debajo de la navegación */
+}

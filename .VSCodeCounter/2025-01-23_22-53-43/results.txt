@@ -1,0 +1,229 @@
+Date : 2025-01-23 22:53:43
+Directory : d:\Xampp\htdocs\220125
+Total : 181 files,  14110 codes, 6811 comments, 2159 blanks, all 23080 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PHP        |        138 |     11,326 |      6,786 |      1,729 |     19,841 |
+| CSS        |         13 |      1,376 |         14 |        188 |      1,578 |
+| HTML       |         19 |        645 |          6 |         35 |        686 |
+| Markdown   |          4 |        374 |          0 |        166 |        540 |
+| JavaScript |          5 |        229 |          5 |         39 |        273 |
+| JSON       |          2 |        160 |          0 |          2 |        162 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                        | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                           |        181 |     14,110 |      6,811 |      2,159 |     23,080 |
+| . (Files)                                                                                   |          1 |         37 |          0 |          0 |         37 |
+| CSS                                                                                         |         13 |      1,376 |         14 |        188 |      1,578 |
+| Game                                                                                        |          9 |        583 |         13 |         56 |        652 |
+| Game (Files)                                                                                |          7 |        399 |          8 |         27 |        434 |
+| Game\Memoria                                                                                |          2 |        184 |          5 |         29 |        218 |
+| Inicio                                                                                      |        145 |     11,703 |      6,778 |      1,876 |     20,357 |
+| Inicio (Files)                                                                              |          9 |        317 |          2 |         42 |        361 |
+| Inicio\PHPMailer                                                                            |        136 |     11,386 |      6,776 |      1,834 |     19,996 |
+| Inicio\PHPMailer (Files)                                                                    |          4 |        384 |         48 |        102 |        534 |
+| Inicio\PHPMailer\PHPMailer-6.9.3                                                            |         68 |      5,693 |      3,388 |        917 |      9,998 |
+| Inicio\PHPMailer\PHPMailer-6.9.3 (Files)                                                    |          4 |        384 |         48 |        102 |        534 |
+| Inicio\PHPMailer\PHPMailer-6.9.3\language                                                   |         57 |      1,256 |        336 |        171 |      1,763 |
+| Inicio\PHPMailer\PHPMailer-6.9.3\src                                                        |          7 |      4,053 |      3,004 |        644 |      7,701 |
+| Inicio\PHPMailer\language                                                                   |         57 |      1,256 |        336 |        171 |      1,763 |
+| Inicio\PHPMailer\src                                                                        |          7 |      4,053 |      3,004 |        644 |      7,701 |
+| Menu                                                                                        |          9 |        285 |          6 |         21 |        312 |
+| Menu (Files)                                                                                |          6 |        148 |          1 |          4 |        153 |
+| Menu\Footer                                                                                 |          3 |        137 |          5 |         17 |        159 |
+| Scripts                                                                                     |          4 |        126 |          0 |         18 |        144 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                    | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Xampp\htdocs\220125\CSS\bootstrap.min.css                                                | CSS        |          2 |          4 |          0 |          6 |
+| d:\Xampp\htdocs\220125\CSS\bulma.min.css                                                    | CSS        |          3 |          0 |          0 |          3 |
+| d:\Xampp\htdocs\220125\CSS\cambiarcontra.css                                                | CSS        |        105 |          0 |         18 |        123 |
+| d:\Xampp\htdocs\220125\CSS\creators.css                                                     | CSS        |        105 |          2 |          6 |        113 |
+| d:\Xampp\htdocs\220125\CSS\credits.css                                                      | CSS        |         80 |          0 |          5 |         85 |
+| d:\Xampp\htdocs\220125\CSS\estilologin.css                                                  | CSS        |        158 |          1 |         22 |        181 |
+| d:\Xampp\htdocs\220125\CSS\estilonueva_contra.css                                           | CSS        |        149 |          1 |         28 |        178 |
+| d:\Xampp\htdocs\220125\CSS\estilorecupera_correo.css                                        | CSS        |        105 |          1 |         19 |        125 |
+| d:\Xampp\htdocs\220125\CSS\estilorecupera_usuario.css                                       | CSS        |        105 |          1 |         19 |        125 |
+| d:\Xampp\htdocs\220125\CSS\estiloregistro.css                                               | CSS        |        290 |          1 |         34 |        325 |
+| d:\Xampp\htdocs\220125\CSS\inform.css                                                       | CSS        |         77 |          0 |          9 |         86 |
+| d:\Xampp\htdocs\220125\CSS\style.css                                                        | CSS        |         81 |          2 |         11 |         94 |
+| d:\Xampp\htdocs\220125\CSS\stylemain.css                                                    | CSS        |        116 |          1 |         17 |        134 |
+| d:\Xampp\htdocs\220125\Game\Memoria\cards.js                                                | JavaScript |        103 |          5 |         21 |        129 |
+| d:\Xampp\htdocs\220125\Game\Memoria\game6memo.html                                          | HTML       |         81 |          0 |          8 |         89 |
+| d:\Xampp\htdocs\220125\Game\Trivia1.php                                                     | PHP        |        127 |          4 |         13 |        144 |
+| d:\Xampp\htdocs\220125\Game\Trivia2.php                                                     | PHP        |        128 |          4 |         13 |        145 |
+| d:\Xampp\htdocs\220125\Game\game.html                                                       | HTML       |         30 |          0 |          1 |         31 |
+| d:\Xampp\htdocs\220125\Game\game2.html                                                      | HTML       |         28 |          0 |          0 |         28 |
+| d:\Xampp\htdocs\220125\Game\game3.html                                                      | HTML       |         28 |          0 |          0 |         28 |
+| d:\Xampp\htdocs\220125\Game\game4.html                                                      | HTML       |         29 |          0 |          0 |         29 |
+| d:\Xampp\htdocs\220125\Game\game7.html                                                      | HTML       |         29 |          0 |          0 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\README.md                           | Markdown   |        168 |          0 |         64 |        232 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\SECURITY.md                         | Markdown   |         19 |          0 |         19 |         38 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\composer.json                       | JSON       |         80 |          0 |          1 |         81 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\get_oauth_token.php                 | PHP        |        117 |         48 |         18 |        183 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-af.php      | PHP        |         20 |          4 |          3 |         27 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ar.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-as.php      | PHP        |         28 |          5 |          3 |         36 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-az.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ba.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-be.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-bg.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-bn.php      | PHP        |         28 |          5 |          3 |         36 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ca.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-cs.php      | PHP        |         22 |          4 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-da.php      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-de.php      | PHP        |         22 |          4 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-el.php      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-eo.php      | PHP        |         20 |          4 |          3 |         27 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-es.php      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-et.php      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-fa.php      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-fi.php      | PHP        |         13 |         12 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-fo.php      | PHP        |         13 |         12 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-fr.php      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-gl.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-he.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-hi.php      | PHP        |         27 |          6 |          3 |         36 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-hr.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-hu.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-hy.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-id.php      | PHP        |         22 |          7 |          3 |         32 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-it.php      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ja.php      | PHP        |         27 |          8 |          3 |         38 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ka.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ko.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ku.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-lt.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-lv.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-mg.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-mn.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ms.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-nb.php      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-nl.php      | PHP        |         27 |          5 |          3 |         35 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-pl.php      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-pt.php      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-pt_br.php   | PHP        |         27 |          9 |          3 |         39 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ro.php      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ru.php      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-si.php      | PHP        |         27 |          5 |          3 |         35 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-sk.php      | PHP        |         22 |          6 |          3 |         31 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-sl.php      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-sr.php      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-sr_latn.php | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-sv.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-tl.php      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-tr.php      | PHP        |         27 |          9 |          3 |         39 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-uk.php      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-ur.php      | PHP        |         23 |          5 |          3 |         31 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-vi.php      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-zh.php      | PHP        |         20 |          7 |          3 |         30 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\language\phpmailer.lang-zh_cn.php   | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\src\DSNConfigurator.php             | PHP        |        136 |         80 |         30 |        246 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\src\Exception.php                   | PHP        |          9 |         28 |          4 |         41 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\src\OAuth.php                       | PHP        |         46 |         79 |         15 |        140 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\src\OAuthTokenProvider.php          | PHP        |          6 |         35 |          4 |         45 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\src\PHPMailer.php                   | PHP        |      2,926 |      1,929 |        394 |      5,249 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\src\POP3.php                        | PHP        |        183 |        234 |         53 |        470 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\PHPMailer-6.9.3\src\SMTP.php                        | PHP        |        747 |        619 |        144 |      1,510 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\README.md                                           | Markdown   |        168 |          0 |         64 |        232 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\SECURITY.md                                         | Markdown   |         19 |          0 |         19 |         38 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\composer.json                                       | JSON       |         80 |          0 |          1 |         81 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\get_oauth_token.php                                 | PHP        |        117 |         48 |         18 |        183 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-af.php                      | PHP        |         20 |          4 |          3 |         27 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ar.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-as.php                      | PHP        |         28 |          5 |          3 |         36 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-az.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ba.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-be.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-bg.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-bn.php                      | PHP        |         28 |          5 |          3 |         36 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ca.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-cs.php                      | PHP        |         22 |          4 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-da.php                      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-de.php                      | PHP        |         22 |          4 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-el.php                      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-eo.php                      | PHP        |         20 |          4 |          3 |         27 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-es.php                      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-et.php                      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-fa.php                      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-fi.php                      | PHP        |         13 |         12 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-fo.php                      | PHP        |         13 |         12 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-fr.php                      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-gl.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-he.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-hi.php                      | PHP        |         27 |          6 |          3 |         36 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-hr.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-hu.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-hy.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-id.php                      | PHP        |         22 |          7 |          3 |         32 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-it.php                      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ja.php                      | PHP        |         27 |          8 |          3 |         38 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ka.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ko.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ku.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-lt.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-lv.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-mg.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-mn.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ms.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-nb.php                      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-nl.php                      | PHP        |         27 |          5 |          3 |         35 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-pl.php                      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-pt.php                      | PHP        |         20 |          5 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-pt_br.php                   | PHP        |         27 |          9 |          3 |         39 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ro.php                      | PHP        |         27 |          4 |          3 |         34 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ru.php                      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-si.php                      | PHP        |         27 |          5 |          3 |         35 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-sk.php                      | PHP        |         22 |          6 |          3 |         31 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-sl.php                      | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-sr.php                      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-sr_latn.php                 | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-sv.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-tl.php                      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-tr.php                      | PHP        |         27 |          9 |          3 |         39 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-uk.php                      | PHP        |         20 |          6 |          3 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-ur.php                      | PHP        |         23 |          5 |          3 |         31 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-vi.php                      | PHP        |         19 |          6 |          3 |         28 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-zh.php                      | PHP        |         20 |          7 |          3 |         30 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\language\phpmailer.lang-zh_cn.php                   | PHP        |         27 |          7 |          3 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\src\DSNConfigurator.php                             | PHP        |        136 |         80 |         30 |        246 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\src\Exception.php                                   | PHP        |          9 |         28 |          4 |         41 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\src\OAuth.php                                       | PHP        |         46 |         79 |         15 |        140 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\src\OAuthTokenProvider.php                          | PHP        |          6 |         35 |          4 |         45 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\src\PHPMailer.php                                   | PHP        |      2,926 |      1,929 |        394 |      5,249 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\src\POP3.php                                        | PHP        |        183 |        234 |         53 |        470 |
+| d:\Xampp\htdocs\220125\Inicio\PHPMailer\src\SMTP.php                                        | PHP        |        747 |        619 |        144 |      1,510 |
+| d:\Xampp\htdocs\220125\Inicio\cambiar_contra.php                                           | HTML       |         23 |          0 |          0 |         23 |
+| d:\Xampp\htdocs\220125\Inicio\nuevacontra.html                                              | HTML       |         29 |          0 |          1 |         30 |
+| d:\Xampp\htdocs\220125\Inicio\olvidocontra_usuario.php                                     | HTML       |         28 |          0 |          1 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\olvidocotra_correo.html                                       | HTML       |         27 |          0 |          2 |         29 |
+| d:\Xampp\htdocs\220125\Inicio\proceso_cambiar_contraseña.php                                | PHP        |         30 |          0 |          7 |         37 |
+| d:\Xampp\htdocs\220125\Inicio\proceso_login.php                                             | PHP        |         41 |          0 |          7 |         48 |
+| d:\Xampp\htdocs\220125\Inicio\proceso_olvidar_contraseña.php                                | PHP        |         58 |          2 |         14 |         74 |
+| d:\Xampp\htdocs\220125\Inicio\proceso_registro.php                                          | PHP        |         40 |          0 |          9 |         49 |
+| d:\Xampp\htdocs\220125\Inicio\registro.html                                                 | HTML       |         41 |          0 |          1 |         42 |
+| d:\Xampp\htdocs\220125\Menu\Footer\creators.html                                            | HTML       |         63 |          2 |          5 |         70 |
+| d:\Xampp\htdocs\220125\Menu\Footer\credits.html                                             | HTML       |         34 |          0 |          8 |         42 |
+| d:\Xampp\htdocs\220125\Menu\Footer\inform.html                                              | HTML       |         40 |          3 |          4 |         47 |
+| d:\Xampp\htdocs\220125\Menu\mainmenu.php                                                   | HTML       |         38 |          0 |          0 |         38 |
+| d:\Xampp\htdocs\220125\Menu\cards.html                                                      | HTML       |         26 |          0 |          1 |         27 |
+| d:\Xampp\htdocs\220125\Menu\error404.php                                                    | PHP        |         13 |          0 |          0 |         13 |
+| d:\Xampp\htdocs\220125\Menu\opciones.html                                                   | HTML       |         21 |          0 |          0 |         21 |
+| d:\Xampp\htdocs\220125\Menu\stats.html                                                      | HTML       |         21 |          0 |          0 |         21 |
+| d:\Xampp\htdocs\220125\Menu\usuario.php                                                    | HTML       |         29 |          1 |          3 |         33 |
+| d:\Xampp\htdocs\220125\Scripts\script.js                                                    | JavaScript |         50 |          0 |          6 |         56 |
+| d:\Xampp\htdocs\220125\Scripts\script2.js                                                   | JavaScript |         44 |          0 |          6 |         50 |
+| d:\Xampp\htdocs\220125\Scripts\script3.js                                                   | JavaScript |         16 |          0 |          3 |         19 |
+| d:\Xampp\htdocs\220125\Scripts\script4.js                                                   | JavaScript |         16 |          0 |          3 |         19 |
+| d:\Xampp\htdocs\220125\index.php                                                            | PHP        |         37 |          0 |          0 |         37 |
+| Total                                                                                       |            |     14,110 |      6,811 |      2,159 |     23,080 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    height: 100dvh;
+    padding: 20px;
+    background-image: url(../Images/FondoMenu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+h1{
+    position: absolute;
+    top: 10%;
+    color: #eee;
+}
+.section-creators{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: relative;
+}
+
+.creator{
+    width: 220px;
+    height: 450px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px 5px;
+    color: #fcfcfc;
+    background-image: linear-gradient(black,#534d4d);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(235, 176, 88, 0.5);
+    margin: 50px;
+}
+.dentro{
+    align-items: center;
+    overflow: auto;
+    max-height: 500px;
+    text-align: center;
+}
+.creator img{
+    margin-top: 1px;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+.infocr{
+    padding: 5px;
+}
+.infocr h3{
+    
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.infocr p{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color:  #3e3131;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.menu {
+    color: #eee;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: rgb(235, 176, 88);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Sin subrayado */
+}
+.navegacion {
+    color: azure;
+    background-color: rgb(235, 176, 88);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: azure; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+.beg{
+    color: azure; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+.beg:hover{
+    text-decoration: underline;
+}
+.nav-link:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+.navegacion {
+    margin-bottom: 20px; /* Espaciado debajo de la navegación */
+}

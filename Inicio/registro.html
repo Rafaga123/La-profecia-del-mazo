@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro</title>
+        <link rel="shortcut icon" sizes="60x60" href="../images/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <header>
+
+        </header>
+        <link rel="stylesheet" href="../CSS/estiloregistro.css">
+    </head>
+<body>
+    <audio id="base" autoplay loop>
+        <source src="../Soundtrack/pistalogin.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        <h1>Sistema de registro</h1>
+        <form action="proceso_registro.php" method="POST">
+            <div class="nombre">
+                <input type="text" name="nombre" required>
+                <label>Nombre</label>
+            </div>
+            <div class="apellido">
+                <input type="text" name="apellido" required>
+                <label>Apellido</label>
+            </div>
+            <div class="correo">
+                <input :valid type="email" name="correo" required>
+                <label>Correo electrónico</label>
+            </div>
+            <div class="Usuario">
+                <input type="text" name="usuario" required>
+                <label>Nombre de Usuario</label>
+            </div>
+            <div class="password">
+                <input type="password" name="password" required>
+                <label>Contraseña</label>
+            </div>
+            <input type="submit" value="registrar">
+            <div class="Inicio">
+                <a href="../index.php">Inicio de sesion</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
